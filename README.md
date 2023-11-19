@@ -45,6 +45,8 @@ graffiti=discordİsmi
 # ve run edelim
 docker compose up -d
 ```
+#Açık portları kontrol edelim
+sudo lsof -i -P -n | grep LISTEN
 
 <h1 align="center">Log kontrolleri</h1>
 
